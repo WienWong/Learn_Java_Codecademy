@@ -22,11 +22,11 @@ class Animal {
 
 public static void main(String[] args) {
 	Dog spike=new Dog(2);
-    spike.bark();
-    spike.run(1235);
-    int spikeAge=spike.getAge();
-    System.out.println(spikeAge);
-    spike.checkStatus(); // method inherit from Animal
+	spike.bark();
+	spike.run(1235);
+	int spikeAge=spike.getAge();
+	System.out.println(spikeAge);
+	spike.checkStatus(); // method inherit from Animal
 	}
 }
 
